@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #BDD9F5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(32, 7, 124);
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #BDD9F5;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #0084ff;
+    color: white;
+}
+
+.button3 {
+    background-color: rgb(32, 7, 124);
+}
+
+.flexbox-container {
+    margin: auto;
+    justify-content: center;
+}
+
+.flexbox-container {
+    background-image: url(sem-thijssen.jpeg);
+    background-size: cover;
+    box-shadow: 0 5px, 15px rgba(0, 0, 0, .5);
+    margin-top: 50px;
+    margin-left: 389px;
+    margin-right: 229px;
+    height: 435px;
+    width: 678px;
+}
+
+h2 {
+    padding-left: 650px;
+    font-family: 'poppins';
+    font-weight: 1000;
+    font-size: 37px;
+    color: black;
+}
+
+h1 {
+    padding-left: 400px;
+    font-family: 'poppins';
+    font-weight: 1000;
+    font-size: 37px;
+    color: black;
+}
+
+p {
+    font-family: 'poppins';
+    font-size: 25px;
+    text-align: center;
+}

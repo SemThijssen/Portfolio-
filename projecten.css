@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #BDD9F5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(32, 7, 124);
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.wulfies a {
+    float: left;
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 17px;
+    padding-bottom: 100px;
+    padding-top: -200px;
+}
+
+.topnav a:hover {
+    background-color: #BDD9F5;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #0084ff;
+    color: white;
+}
+
+.button3 {
+    background-color: rgb(32, 7, 124);
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button4 {
+    background-image: url('RG.png');
+    background-repeat: no-repeat;
+    width: 260px;
+    height: 135px;
+    margin-left: 250px;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(32, 7, 124);
+}
+
+.button5 {
+    background-color: #2694fc;
+    width: 230px;
+    height: 160px;
+    margin-left: 480px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.button6 {
+    background-color: #2694fc;
+}
+
+.flexbox-container {
+    margin: auto;
+    justify-content: center;
+}
+
+.flexbox-container {
+    background-color: #f2f2f2;
+    background-size: cover;
+    box-shadow: 0 5px, 15px rgba(0, 0, 0, .5);
+    margin-top: 50px;
+    margin-left: 389px;
+    margin-right: 229px;
+    height: 435px;
+    width: 678px;
+}
+
+h2 {
+    padding-left: 650px;
+    font-family: 'poppins';
+    font-weight: 1000;
+    font-size: 37px;
+    color: black;
+}
+
+h1 {
+    padding-left: 240px;
+    padding-top: 100px;
+    font-family: 'poppins';
+    font-weight: 1000;
+    font-size: 47px;
+    color: black;
+}
+
+p {
+    font-family: 'poppins';
+    font-size: 25px;
+    text-align: center;
+}
