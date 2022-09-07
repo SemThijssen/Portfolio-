@@ -64,6 +64,7 @@ h2 {
 img {
     height: 450px;
     padding-left: 340px;
+    padding-top: 50px;
 }
 
 h1 {
@@ -93,5 +94,6 @@ p {
         height: 450px;
         width: 100%;
         padding-left: 0px;
+        padding-top: 50px;
     }
 }
