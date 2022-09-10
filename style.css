@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #BDD9F5;
+    background: #022141;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -40,26 +40,31 @@ body {
 }
 
 .flexbox-container {
-    background-image: url(sem-thijssen.jpeg);
-    background-size: cover;
-    box-shadow: 0 5px, 15px rgba(0, 0, 0, .5);
+    position: relative;
+    background-color: #65acee;
     margin-top: 50px;
-    margin-left: 389px;
-    margin-right: 229px;
-    height: 435px;
-    width: 678px;
+    height: 335px;
+    width: 100%;
+}
+
+img {
+    position: absolute;
+    top: 20px;
+    max-width: 100%;
+    height: auto;
 }
 
 h2 {
     padding-left: 650px;
-    font-family: 'poppins';
+    font-family: 'arial';
     font-weight: 1000;
     font-size: 37px;
-    color: black;
+    color: rgb(255, 255, 255)
 }
 
 h1 {
     padding-left: 400px;
+    padding-top: 45px;
     font-family: 'poppins';
     font-weight: 1000;
     font-size: 37px;
@@ -161,6 +166,33 @@ p {
     }
     h2 {
         padding-left: 278px;
+        font-family: 'poppins';
+        font-weight: 1000;
+        font-size: 37px;
+        color: black;
+    }
+}
+
+@media screen and (width :768px) {
+    .flexbox-container {
+        background-image: url(sem-thijssen.jpeg);
+        background-size: cover;
+        box-shadow: 0 5px, 15px rgba(0, 0, 0, .5);
+        margin-top: 50px;
+        margin-left: 0px;
+        margin-right: 99px;
+        height: 335px;
+        width: 100%;
+    }
+    h1 {
+        padding-left: 510px;
+        font-family: 'poppins';
+        font-weight: 1000;
+        font-size: 37px;
+        color: black;
+    }
+    h2 {
+        padding-left: 318px;
         font-family: 'poppins';
         font-weight: 1000;
         font-size: 37px;
