@@ -7,7 +7,7 @@ body {
 
 .topnav {
     overflow: hidden;
-    background-color: rgb(32, 7, 124);
+    background-color: #022141;
     width: 100%;
 }
 
@@ -21,7 +21,7 @@ body {
 }
 
 .topnav a:hover {
-    background-color: #BDD9F5;
+    background-color: #65acee;
     color: black;
 }
 
@@ -40,11 +40,13 @@ body {
 }
 
 .flexbox-container {
+    border-radius: 75px;
     position: relative;
     background-color: #65acee;
+    margin-left: 0px;
     margin-top: 50px;
     height: 335px;
-    width: 100%;
+    width: 50%;
 }
 
 img {
@@ -75,6 +77,41 @@ p {
     font-family: 'poppins';
     font-size: 25px;
     text-align: center;
+}
+
+h3 {
+    padding-left: 400px;
+    padding-top: 45px;
+    font-family: 'poppins';
+    font-weight: 1000;
+    font-size: 37px;
+    color: white
+}
+
+.wulfies {}
+
+.rg {}
+
+.rg img {
+    position: absolute;
+    top: 700px;
+    right: 105px;
+}
+
+.wulfies img {
+    position: absolute;
+    top: 700px;
+    left: 105px;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    float: left;
+    flex: 33.3%;
+    padding: 5px;
 }
 
 @media screen and (max-width :690px) {

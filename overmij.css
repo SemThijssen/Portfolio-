@@ -1,13 +1,13 @@
 body {
     margin: 0;
     padding: 0;
-    background: #BDD9F5;
+    background: #022141;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .topnav {
     overflow: hidden;
-    background-color: rgb(32, 7, 124);
+    background-color: #022141;
 }
 
 .topnav a {
@@ -20,7 +20,7 @@ body {
 }
 
 .topnav a:hover {
-    background-color: #BDD9F5;
+    background-color: #65acee;
     color: black;
 }
 
@@ -58,7 +58,7 @@ h2 {
     font-family: 'poppins';
     font-weight: 1000;
     font-size: 37px;
-    color: black;
+    color: white
 }
 
 img {
@@ -72,13 +72,14 @@ h1 {
     font-family: 'poppins';
     font-weight: 1000;
     font-size: 37px;
-    color: black;
+    color: white
 }
 
 p {
     font-family: 'poppins';
     font-size: 25px;
     text-align: center;
+    color: white;
 }
 
 @media screen and (max-width :690px) {
