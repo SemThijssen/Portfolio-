@@ -4,6 +4,38 @@ body {
     background: #022141;
     font-family: Arial, Helvetica, sans-serif;
 }
+.button{
+    display: inline-flex;
+    height: 50px;
+    padding:0px;
+    background: #0084ff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "poppins";
+    font-size: 35px;
+    cursor: pointer;
+}
+.button:hover{
+    background: #0070c0;
+}
+.button:active{
+    background: #015c9d;
+}
+.button__text{
+    display: inline-flex;
+align-items: center;
+    padding-left: 24px;
+    
+    color: white;
+
+}
+.button__icon{display: inline-flex;
+align-items: center;
+padding: 6px 24px;
+
+color: white;}
 
 .topnav {
     overflow: hidden;
@@ -18,7 +50,11 @@ body {
     text-decoration: none;
     font-size: 17px;
 }
-
+.flexbox-container8{
+    width: 150px; 
+    height: 50px;
+    background-color: black;
+}
 .topnav a:hover {
     background-color: #BDD9F5;
     color: black;
@@ -52,7 +88,12 @@ body {
     height: 435px;
     width: 678px;
 }
-
+.a{
+    padding: 14px 16px;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+}
 h2 {
     padding-left: 650px;
     font-family: 'poppins';
@@ -61,11 +102,7 @@ h2 {
     color: black;
 }
 
-img {
-    height: 450px;
-    padding-left: 100px;
-    padding-top: 50px;
-}
+
 
 p1 {
     font-family: 'poppins';
@@ -87,6 +124,15 @@ p {
     font-size: 25px;
     text-align: center;
 }
+p2{
+    font-family: 'poppins';
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    margin:40px;
+
+
+}
 
 
 /* .flexbox-container7 {
@@ -94,21 +140,21 @@ p {
     margin-right: 500px;
 } */
 
-.button {
-    border: none;
-    color: white;
-    padding: 25px 72px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
 
-.button1 {
-    background-color: white;
-}
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
 
 .flexbox-container3 {
     border-top: 100px;
@@ -166,22 +212,99 @@ p {
 }
 
 @media screen and (max-width :690px) {
-    .flexbox-container {
-        box-shadow: 0 5px, 15px rgba(0, 0, 0, .5);
-        margin-top: 50px;
-        margin-left: 180px;
-        margin-right: 99px;
-        height: 335px;
-        width: 478px;
+    body {
+        margin: 0;
+        padding: 0;
+        background: black;
+        font-family: Arial, Helvetica, sans-serif;
     }
-    img {
-        height: 450px;
-        width: 100%;
-        padding-left: 0px;
-        padding-top: 50px;
+    .flexbox-container3 {
+        border-top: 100px;
+        border-color: #0084ff;
+        height: 500px;
+        background-color: white;
+        margin-left: 280px;
+        margin-right: 280px;
+        width:  500px;
     }
+   
+    .button{
+        display: inline-flex;
+        height: 25px;
+        padding:0px;
+        background: #0084ff;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        overflow: hidden;
+        font-family: "poppins";
+        font-size: 17px;
+        cursor: pointer;
+    }
+    .button:hover{
+        background: #0070c0;
+    }
+    .button:active{
+        background: #015c9d;
+    }
+    .button__text{
+        display: inline-flex;
+    align-items: center;
+        padding-left: 4px;
+        
+        color: white;
+    
+    }
+    .button__icon{display: inline-flex;
+    align-items: center;
+    padding: 4px 5px;
+    
+    color: white;}
+    .flexbox-container4 {
+        height: 100px;
+        width: 100px;
+        margin-top: 350px;
+        background-color: white;
+    }
+    
+    .flexbox-container5 {
+        height: 100px;
+        width: 100px;
+        margin-top: 350px;
+        background-color: white;
+    }
+    .flexbox-container6 {
+        height: 100px;
+        width: 100px;
+        margin-left: 400px;
+        background-color: white;
+    }
+
+.row .column .flexbox-container4 {
+    margin-bottom: 0px;
+    margin-left: 0px;
 }
 
+.row .column .flexbox-container5 {
+    margin-left: 50px;
+    margin-bottom: 0px;
+}
+
+.row .column .flexbox-container6 {
+    margin-top: -205px;
+    margin-left: 50px;
+}
+
+.column {
+    float: right;
+    flex: 33.3%;
+    padding-left: 70px;
+}
+
+.row {
+    display: flex;
+}
+}
 @media screen and (width :768px) {
     .flexbox-container {
         box-shadow: 0 5px, 15px rgba(0, 0, 0, .5);
@@ -197,4 +320,5 @@ p {
         padding-left: 0px;
         padding-top: 50px;
     }
+  
 }
