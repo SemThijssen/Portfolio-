@@ -9,6 +9,7 @@ body {
     height: 50px;
     padding:0px;
     background: #0084ff;
+    margin-left: 350px;
     border: none;
     outline: none;
     border-radius: 5px;
@@ -165,41 +166,9 @@ p2{
     margin-right: 280px;
 }
 
-.flexbox-container4 {
-    height: 200px;
-    width: 200px;
-    margin-top: 700px;
-    background-color: white;
-}
 
-.flexbox-container5 {
-    height: 200px;
-    width: 200px;
-    margin-top: 700px;
-    background-color: white;
-}
+ 
 
-.flexbox-container6 {
-    height: 200px;
-    width: 200px;
-    margin-left: 800px;
-    background-color: white;
-}
-
-.row .column .flexbox-container4 {
-    margin-bottom: 0px;
-    margin-left: 75px;
-}
-
-.row .column .flexbox-container5 {
-    margin-right: 340px;
-    margin-bottom: 0px;
-}
-
-.row .column .flexbox-container6 {
-    margin-top: -205px;
-    margin-left: 250px;
-}
 
 .column {
     float: left;
@@ -260,40 +229,9 @@ p2{
     padding: 4px 5px;
     
     color: white;}
-    .flexbox-container4 {
-        height: 100px;
-        width: 100px;
-        margin-top: 350px;
-        background-color: white;
-    }
-    
-    .flexbox-container5 {
-        height: 100px;
-        width: 100px;
-        margin-top: 350px;
-        background-color: white;
-    }
-    .flexbox-container6 {
-        height: 100px;
-        width: 100px;
-        margin-left: 400px;
-        background-color: white;
-    }
+   
 
-.row .column .flexbox-container4 {
-    margin-bottom: 0px;
-    margin-left: 0px;
-}
 
-.row .column .flexbox-container5 {
-    margin-left: 50px;
-    margin-bottom: 0px;
-}
-
-.row .column .flexbox-container6 {
-    margin-top: -205px;
-    margin-left: 50px;
-}
 
 .column {
     float: right;
