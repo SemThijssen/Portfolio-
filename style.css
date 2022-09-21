@@ -34,6 +34,31 @@ body {
     background-color: rgb(32, 7, 124);
 }
 
+button{
+    padding-top: 100px;
+    padding-left:300px;
+    padding-bottom: 100px;
+    margin-left: 105px;
+    margin-top: 70px;
+    border: none;
+    outline: none;
+}
+button:hover{
+    background-color: #022141;
+}
+button1{
+    padding-top: 100px;
+    padding-left:300px;
+    padding-bottom: 100px;
+    margin-left: 105px;
+    margin-top: 70px;
+    border: none;
+    outline: none;
+
+}
+button1:hover{
+    background-color: #022141;
+}
 .flexbox-container {
     margin: auto;
     justify-content: center;
@@ -47,13 +72,16 @@ body {
     margin-top: 50px;
     height: 335px;
     width: 50%;
+    opacity: 0.5;
 }
 
 img {
     position: absolute;
-    top: 20px;
+    top: 120px;
     max-width: 100%;
     height: auto;
+    left: 50px;
+
 }
 
 h2 {
@@ -96,8 +124,8 @@ h3 {
     position: absolute;
     top: 700px;
     right: 105px;
+    left: 1000px;
 }
-
 .wulfies img {
     position: absolute;
     top: 700px;
