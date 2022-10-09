@@ -31,21 +31,42 @@ body {
 }
 
 .button3 {
-    background-color: rgb(32, 7, 124);
+    background-color: #0084ff;
 }
+.card {
+width: 420px;
+height: 400px;
+    background-color: #BDD9F5;
+    margin: 10px;
+  }
+  .card-image{
+    background-color: #f2f2f2;
+    height: 208px;
+    margin-bottom: 15px;
+    background-size: cover;
+  }
+  .wulfies{
+    background-image: url("./wulfies.png");
+  }
+  
+  .RG{
+    background-image: url("./RG.png");
+    
+  }
+  .interactieve_speeltuin{
+    background-image: url("./basquiat.jpeg");
+    
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+  display: flex;
+  justify-content: center;
+  }
 
-button{
-    padding-top: 100px;
-    padding-left:300px;
-    padding-bottom: 100px;
-    margin-left: 105px;
-    margin-top: 70px;
-    border: none;
-    outline: none;
-}
-button:hover{
-    background-color: #022141;
-}
+
 button1{
     padding-top: 100px;
     padding-left:300px;
@@ -72,7 +93,7 @@ button1:hover{
     margin-top: 50px;
     height: 335px;
     width: 50%;
-    opacity: 0.5;
+    opacity: 1.5;
 }
 
 img {
@@ -84,14 +105,34 @@ img {
 
 }
 
-h2 {
-    padding-left: 650px;
-    font-family: 'arial';
-    font-weight: 1000;
-    font-size: 37px;
-    color: rgb(255, 255, 255)
-}
 
+h2{ font-family: 'poppins';
+    font-size: 25px;
+    text-align: center;}
+    .button{
+ 
+        height: 30px;
+        width: 180px;
+        padding:0px;
+        background: #0084ff;
+        margin-left: 120px;
+        margin-top: 25px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        overflow: hidden;
+        font-family: "poppins";
+        font-size: 23px;
+        cursor: pointer;
+    }
+    .button__text{
+        display: inline-flex;
+        align-items: center;
+        
+        
+        color: white;
+    
+    }
 h1 {
     padding-left: 400px;
     padding-top: 45px;
@@ -107,6 +148,13 @@ p {
     text-align: center;
 }
 
+    p1 {
+        font-family: 'poppins';
+        font-size: 25px;
+        text-align: center;
+    }
+
+
 h3 {
     padding-left: 400px;
     padding-top: 45px;
@@ -115,7 +163,9 @@ h3 {
     font-size: 37px;
     color: white
 }
-
+h4{ font-family: 'poppins';
+    font-size: 25px;
+    padding-left: 7.6rem;}
 .wulfies {}
 
 .rg {}
@@ -125,11 +175,6 @@ h3 {
     top: 700px;
     right: 105px;
     left: 1000px;
-}
-.wulfies img {
-    position: absolute;
-    top: 700px;
-    left: 105px;
 }
 
 .row {
@@ -141,7 +186,82 @@ h3 {
     flex: 33.3%;
     padding: 5px;
 }
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.footer-container{
+    background-color:#022141;
+    padding-bottom: 4rem;
+}
+.footer{
+     width: 80%;
+     height: 20vh;
+     background-color: #022141;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 10rem;
+}
+     .footer-heading{
+        display: flex;
+        flex-direction: column;
+        margin-right: 2.5rem;
+     }
+     .footer-heading h2{
+        margin-bottom: 0;
+        font-family: 'poppins';
+        font-size: 25px;
+        margin-right: 16.1rem;
 
+     }
+     .footer-heading a{
+        color: white;
+        text-decoration: none;
+        margin-bottom: 0;
+        font-size: 25px;
+        margin-left: 2rem;
+        margin-top: 1rem;
+     }
+     .footer-heading a:hover{
+        color: red;
+        transition: 0.3s ease-in-out;
+     }
+     .footer-email-form h2{
+        margin-bottom: 2rem;
+     }
+     #footer-email{
+        width: 250px;
+        height: 40px;
+        border-radius: 4px;
+        outline: none;
+        border: none;
+        padding-left: 0.5rem;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 47.4rem;
+        margin-top: -6rem;
+    }
+     
+    #footer-email::placeholder{
+        color: #b1b1b1;
+    }
+    #footer-email-btn{
+        height: 40px;
+        width: 100px;
+        border-radius: 4px;
+        background-color:#0084ff;
+        outline: none;
+        border: none;
+        margin-top: -6rem;
+    }
+    #footer-email-btn:hover{
+        cursor: pointer;
+        background-color: skyblue;
+        transition: all 0.4s ease-out;
+    }
 @media screen and (max-width :690px) {
     .flexbox-container {
         background-image: url(sem-thijssen.jpeg);
