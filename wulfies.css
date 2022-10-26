@@ -4,40 +4,28 @@ body {
     background: #022141;
     font-family: Arial, Helvetica, sans-serif;
 }
-.button{
-    display: inline-flex;
-    height: 50px;
-    padding-left:55px;
-    background: #0084ff;
-    margin-top: 0px;
-    margin-left: 50px;
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    overflow: hidden;
-    font-family: "poppins";
-    font-size: 25px;
-    cursor: pointer;
-    text-decoration: none;
-}
-.button2{
-    display: inline-flex;
-    height: 50px;
-    padding-left:75px;
-    background: #0084ff;
-    margin-top: -100px;
-    margin-left: 400px;
 
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    overflow: hidden;
-    font-family: "poppins";
-    font-size: 25px;
-    cursor: pointer;
-}
+    .button {
+        display: inline-flex;
+        height: 50px;
+        padding-left: 55px;
+        background: #0084ff;
+        margin-top: 25px;
+        margin-left: 345px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        overflow: hidden;
+        font-family: "poppins";
+        font-size: 25px;
+        cursor: pointer;
+        text-decoration: none;
+    }
 .button:hover{
     background: #0070c0;
+    transition: 0.5s;
+  
+  
 }
 .button:active{
     background: #015c9d;
@@ -48,6 +36,7 @@ align-items: center;
     padding-right: 45px;
     margin-top: 6px;
     color: white;
+    text-decoration: none;
 
 }
 
@@ -229,6 +218,62 @@ color: white;
 
 .row {
     display: flex;
+}
+.footer-container{
+    background-color:#022141;
+   
+}
+
+    .footer {
+        width: 80%;
+        height: 20vh;
+        background-color: #022141;
+        color: white;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: 0rem;
+    }
+
+.footer-heading{
+    display: flex;
+    flex-direction: column;
+    margin-right: 2.5rem;
+ }
+ 
+ 
+
+
+.footer-heading h2 {
+    margin-bottom: 0px;
+    font-family: poppins;
+    font-size: 25px;
+    margin-left: -57.9rem;
+    color: white;
+}
+.footer-heading a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0;
+    font-size: 18px;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    text-decoration: underline;
+ }
+ .footer-heading a:hover{
+    color: red;
+    transition: 0.3s ease-in-out;
+ }
+  .footer .row {
+    display: flex;
+}
+
+.footer .column {
+    float: left;
+    flex: 1 1 33.3%;
+    padding: 5px;
+    margin-left: -207px;
+    margin-right: -45px;
 }
 
 @media screen and (max-width :376px) {

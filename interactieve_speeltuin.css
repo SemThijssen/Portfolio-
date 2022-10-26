@@ -4,13 +4,13 @@ body {
     background: #022141;
     font-family: Arial, Helvetica, sans-serif;
 }
-.button{
+.button {
     display: inline-flex;
     height: 50px;
-    padding-left:55px;
+    padding-left: 55px;
     background: #0084ff;
     margin-top: 0px;
-    margin-left: 50px;
+    margin-left: 347px;
     border: none;
     outline: none;
     border-radius: 5px;
@@ -143,7 +143,7 @@ h1 {
 }
 
 p {
-    padding-top: 65px;
+    padding-top: 9px;
     font-family: 'poppins';
     font-size: 25px;
     text-align: center;
@@ -231,6 +231,62 @@ color: white;
 
 .row {
     display: flex;
+}
+.footer-container{
+    background-color:#022141;
+   
+}
+
+    .footer {
+        width: 80%;
+        height: 20vh;
+        background-color: #022141;
+        color: white;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: 0rem;
+    }
+
+.footer-heading{
+    display: flex;
+    flex-direction: column;
+    margin-right: 2.5rem;
+ }
+ 
+ 
+
+
+.footer-heading h2 {
+    margin-bottom: 0px;
+    font-family: poppins;
+    font-size: 25px;
+    margin-left: -57.9rem;
+    color: white;
+}
+ .footer-heading a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0;
+    font-size: 18px;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    text-decoration: underline;
+ }
+ .footer-heading a:hover{
+    color: red;
+    transition: 0.3s ease-in-out;
+ }
+  .footer .row {
+    display: flex;
+}
+
+.footer .column {
+    float: left;
+    flex: 1 1 33.3%;
+    padding: 5px;
+    margin-left: -207px;
+    margin-right: -45px;
 }
 
 @media screen and (max-width :690px) {

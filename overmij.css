@@ -144,7 +144,7 @@ p1{
 }
 .footer-container{
     background-color:#022141;
-    padding-bottom: 4rem;
+   
 }
 .footer{
      width: 80%;
@@ -161,18 +161,17 @@ p1{
         flex-direction: column;
         margin-right: 2.5rem;
      }
-     .footer-heading h2{
+     .footer-heading h2 {
         margin-bottom: 0;
         font-family: 'poppins';
         font-size: 25px;
-        margin-left: -39.9rem;
-
-     }
+        margin-left: -33.9rem;
+    }
      .footer-heading a{
         color: white;
-        text-decoration: none;
+        text-decoration: underline;
         margin-bottom: 0;
-        font-size: 25px;
+        font-size: 18px;
         margin-left: 3rem;
         margin-top: 1rem;
      }
@@ -180,36 +179,58 @@ p1{
         color: red;
         transition: 0.3s ease-in-out;
      }
-@media screen and (max-width :690px) {
-    .flexbox-container {
-        box-shadow: 0 5px, 15px rgba(0, 0, 0, .5);
-        margin-top: 50px;
-        margin-left: 180px;
-        margin-right: 99px;
-        height: 335px;
-        width: 478px;
+     .row {
+        display: flex;
+    }
+    
+    .column {
+        float: left;
+        flex: 33.3%;
+        padding: 5px;
+        margin-left: -17px;
+        margin-right: -1px;
+    }
+@media screen and (max-width :376px) {
+    p {
+        font-family: 'poppins';
+        
+        text-align: center;
+        color: white;
+        margin-left: 80px;
+   
     }
     img {
-        height: 450px;
-        width: 100%;
-        padding-left: 0px;
-        padding-top: 50px;
+        height: 400px;
+        width: 400px;
+        padding-left: 29px;
+        margin-top: 31px;
+        padding-bottom: 3px;
     }
+    .footer-heading h2 {
+        margin-bottom: 0;
+        font-family: 'poppins';
+        font-size: 25px;
+        margin-left: -42.9rem;
 }
-
-@media screen and (width :768px) {
-    .flexbox-container {
-        box-shadow: 0 5px, 15px rgba(0, 0, 0, .5);
-        margin-top: 50px;
-        margin-left: 180px;
-        margin-right: 99px;
-        height: 335px;
-        width: 478px;
-    }
-    img {
-        height: 450px;
-        width: 100%;
-        padding-left: 0px;
-        padding-top: 50px;
-    }
+.footer-heading a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0;
+    font-size: 25px;
+    margin-left: 0rem;
+    margin-top: 1rem;
 }
+.footer-heading {
+    display: flex;
+    flex-direction: column;
+    margin-right: 7.5rem;
+}
+.column {
+    float: left;
+    flex: 33.3%;
+    padding: 5px;
+    margin-left: -61px;
+    margin-right: -39px;
+}
+}
+ 
